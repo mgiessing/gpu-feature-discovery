@@ -26,7 +26,7 @@ var (
 	Version = ""
 	// MachineTypePath : Path to the file describing the machine type
 	// This will be override during unit testing
-	MachineTypePath = "/sys/class/dmi/id/product_name"
+	MachineTypePath = "/proc/device-tree/model"
 )
 
 func main() {
